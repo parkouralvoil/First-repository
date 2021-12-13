@@ -81,7 +81,7 @@ def processquantum():
     elif config[1] == "f":
         if last_electron_position > 14: # restrictions
             possible = False
-            error = "the f orbital can only hold a maximum of 10 electrons!"
+            error = "the f orbital can only hold a maximum of 14 electrons!"
         elif int(n) < 4:
             possible = False
             error = "the f orbital only begins at the 4th energy level!"
